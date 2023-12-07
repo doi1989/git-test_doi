@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 33.33%; /* 画像の幅を三分の一に設定 */
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+form {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px; /* フォームの幅を指定する場合は適宜調整してください */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.comment-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.comment-container p {
+    margin: 0;
+}
+
+.comment-section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%; /* 追加 */
+    max-width: 800px; /* 適宜調整 */
+    margin-left: auto; /* 追加 */
+    margin-right: auto; /* 追加 */
+}
